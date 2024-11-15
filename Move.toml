@@ -1,0 +1,18 @@
+[package]
+name = "marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ArtMarket = '0xc223a41c835d03d92f77752d07edb046211509046826d1283007e3f9432fd730'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+move-stdlib = { git="https://github.com/MoveInc/move.git", rev="#v3" }
+my-dependency = "0.x"
+
+
+[dev-dependencies]
